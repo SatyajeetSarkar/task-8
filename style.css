@@ -1,0 +1,45 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f9fc;
+}
+
+.navbar {
+  background: #111 !important;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.hero {
+  background: url("./assests/cover.png")
+    center/cover no-repeat;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  backdrop-filter: blur(5px);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+footer {
+  background: #111;
+}
+
+footer a {
+  color: #ddd;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+footer a:hover {
+  color: #0d6efd;
+}
